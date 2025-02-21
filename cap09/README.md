@@ -1,41 +1,29 @@
-# Nombre del laboratorio 
+# ORQUESTACIÓN DE CONTENEDORES CON KUBERNETES
 
-## Objetivo de la práctica:
-Al finalizar la práctica, serás capaz de:
-- Objetivo1
-- Objetivo2
-- Objetivo3
+## OBJETIVOS
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
+Al termino de estas actividades, serás capaz de:
 
-![diagrama1](../images/img1.png)
+- Instalar Minikube.
+- Interactuar cpn Minikube.
+- Publicar una aplicación Java en un clúster de Kubernetes.
+- Integrar Kubernetes a un flujo de trabajo de Jenkins.
 
-## Duración aproximada:
-- xx minutos.
+## DURACIÓN
 
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
+Tiempo aproximado para esta actividad:
 
-## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+- 100 minutos.
 
-Paso 2. <!-- Añadir instrucción -->
+## PRERREQUISITOS
 
-Paso 3. <!-- Añadir instrucción -->
+Para esta actividad se requiere:
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+- Acceso a Internet.
+- Acceso mediante SSH a un servidor Linux.
 
-Paso 2. <!-- Añadir instrucción -->
+## ACTIVIDADES
 
-Paso 3. <!-- Añadir instrucción -->
-
-### Resultado esperado
-En esta sección, se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+- [Instalación Minikube](a01.md)
+- [Despliegue de Aplicaciones](a02.md)
+- [Jenkins & Kubernetes](a03.md)
