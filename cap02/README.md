@@ -1,26 +1,27 @@
 # JIRA
 
-## CREACIÓN DE CUENTA EN JIRA
-
-### OBJETIVOS
+## OBJETIVOS
 
 Al termino de este capítulo, serás capaz de:
 
 - Crear una cuenta en Jira.
+- Crear un tablero que permita visualizar el estado de las actividades de laboratorio de este curso.
 
-### DURACIÓN
+## DURACIÓN
 
 Tiempo aproximado para esta actividad:
 
-- 10 minutos.
+- 60 minutos.
 
-### PRERREQUISITOS
+## PRERREQUISITOS
 
 Para esta actividad se requiere:
 
 - Acceso a Internet.
 
-### INSTRUCCIONES
+## INSTRUCCIONES
+
+### CREACIÓN DE CUENTA EN JIRA
 
 Jira es una herramienta de gestión de proyectos y seguimiento de incidencias desarrollada por Atlassian. En esta guía aprenderás a crear una cuenta en Jira paso a paso.
 
@@ -34,28 +35,27 @@ Jira es una herramienta de gestión de proyectos y seguimiento de incidencias de
 
 ![Creación de Cuenta en Jira](mm/02-01-01_Jira_Signup_01.png)
 
-#### 2. Crear una Cuenta en Atlassian
+#### Crear una Cuenta en Atlassian
 
 Jira forma parte del ecosistema de Atlassian, por lo que necesitas una cuenta en Atlassian para acceder.
 
 1. En la página de registro, ingresa tu dirección de correo electrónico.
 2. Presiona **"Continuar"**.
 3. Completa el formulario con la siguiente información:
-  - **Nombre y Apellido**
-  - **Correo electrónico o nombre de usuario**
-  - **Contraseña segura** (usa una combinación de letras, números y caracteres especiales)
+   1. **Nombre y Apellido**
+   2. **Correo electrónico o nombre de usuario**
+   3. **Contraseña segura** (usa una combinación de letras, números y caracteres especiales)
 4. Haz clic en **"Registrarse"**.
 
 <div class="tip">
-También puedes registrarte con una cuenta de Google o Microsoft haciendo
-clic en las opciones correspondientes.
+También puedes registrarte con una cuenta de Google o Microsoft haciendo clic en las opciones correspondientes.
 </div>
 
 ![Creación de Cuenta en Jira](mm/02-01-01_Jira_Signup_02.png)
 
 ![Creación de Cuenta en Jira](mm/02-01-01_Jira_Signup_03.png)
 
-#### 3. Verificación de Cuenta
+#### Verificación de Cuenta
 
 1. Revisa la bandeja de entrada de tu correo electrónico.
 2. Busca un correo de verificación de Atlassian.
@@ -71,7 +71,7 @@ Si no encuentras el correo, revisa la carpeta de spam o correos no deseados.
 2. Elige un nombre único para tu sitio Jira Cloud, por ejemplo: `https://tuequipo.atlassian.net`
    1. Recuerda sustituir "tuequipo" por el nombre de equipo que prefieras.
 3. Selecciona el tipo de proyecto que deseas administrar:
-  - ***Jira Software (para desarrollo ágil con Scrum o Kanban)***
+   1. ***Jira Software (para desarrollo ágil con Scrum o Kanban)***
 4. Presiona **"Continuar"** y espera a que se cree tu entorno.
 
 ![Creación de Cuenta en Jira](mm/02-01-01_Jira_Signup_04.png)
@@ -96,33 +96,13 @@ Si no encuentras el correo, revisa la carpeta de spam o correos no deseados.
 - Explora la documentación oficial de Atlassian: <https://support.atlassian.com/jira-software-cloud/>
 - Si usas la versión gratuita, ten en cuenta las limitaciones, como la cantidad de 10 usuarios.
 
-### RESULTADO
+#### Resultado
 
 En esta actividad se creó una cuenta en Jira.
 
 ![Ventana de inicio de sesión de Jira.](mm/02-01_Outcome.png)
 
-## CREACIÓN DE UN TABLERO KANBAN
-
-### OBJETIVOS
-
-Al termino de este capítulo, serás capaz de:
-
-- Crear un tablero que permita visualizar el estado de las actividades de laboratorio de este curso.
-
-### DURACIÓN
-
-Tiempo aproximado para esta actividad:
-
-- 20 minutos.
-
-### PRERREQUISITOS
-
-Para esta actividad se requiere:
-
-- Acceso a Internet.
-
-### INSTRUCCIONES
+### CREACIÓN DE UN TABLERO KANBAN
 
 Jira es una herramienta de gestión de proyectos ampliamente utilizada en metodologías ágiles como Kanban y Scrum. En esta guía, aprenderás a configurar un tablero Kanban en Jira para gestionar las actividades del laboratorio del curso **DevOps Tools**.
 
@@ -138,15 +118,9 @@ Jira es una herramienta de gestión de proyectos ampliamente utilizada en metodo
 1. En la barra de navegación lateral, haz clic en **Proyectos** → **Crear Proyecto**.
 2. Selecciona la plantilla **Kanban**.
 3. En la configuración del proyecto, completa la siguiente información:
-  - **Nombre del Proyecto**: `DevOps Tools - Laboratorio`
-  - **Tipo de Proyecto**: Gestionado por equipo (**Team-managed**).
+   1. **Nombre del Proyecto**: `DevOps Tools - Laboratorio`
+   2. **Tipo de Proyecto**: Gestionado por equipo (**Team-managed**).
 4. Haz clic en **Crear**.
-
-<div class="note">
-Si no estás seguro de qué tipo de proyecto elegir: 
-- **Team-managed**: Recomendado para equipos pequeños con autonomía en la configuración.
-- **Company-managed**: Recomendado si la empresa tiene múltiples proyectos con procesos estandarizados.
-</div>
 
 ![Creación de un Proyecto Kanban](mm/02-02-01_Jira_Kanban_02.png)
 
@@ -163,10 +137,10 @@ Si no estás seguro de qué tipo de proyecto elegir:
 1. Accede a tu nuevo proyecto y selecciona **Tablero Kanban**.
 2. En la esquina superior derecha, haz clic en **"Configurar Tablero"** o **"Board settings"**.
 3. Define las columnas según el flujo de trabajo del laboratorio:
-  - **Pendiente** → Actividades por realizar.
-  - **En Progreso** → Actividades en desarrollo.
-  - **Revisión** → Evaluación de resultados.
-  - **Completado** → Actividades terminadas.
+   1. **Pendiente** → Actividades por realizar.
+   2. **En Progreso** → Actividades en desarrollo.
+   3. **Revisión** → Evaluación de resultados.
+   4. **Completado** → Actividades terminadas.
 
 <div class="tip">
 Puedes personalizar los nombres y agregar nuevas columnas según las necesidades del laboratorio.
@@ -178,14 +152,14 @@ Para agregar las prácticas del curso al tablero Kanban:
 
 1. Haz clic en el botón **Crear Tarea** o **Create issue**.
 2. Completa la información de la tarea:
-  - **Título**: Nombre de la práctica (Ejemplo: **Instalación de Ansible**).
-  - **Descripción**: Incluir detalles sobre la actividad, objetivos y criterios de aceptación.
-  - **Etiqueta (Labels)**: Usa etiquetas como `laboratorio`, `DevOps`, `ansible`, etc.
-  - **Responsable**: Asigna la tarea a un estudiante o grupo.
+   1. **Título**: Nombre de la práctica (Ejemplo: **Instalación de Ansible**).
+   2. **Descripción**: Incluir detalles sobre la actividad, objetivos y criterios de aceptación.
+   3. **Etiqueta (Labels)**: Usa etiquetas como `laboratorio`, `DevOps`, `ansible`, etc.
+   4. **Responsable**: Asigna la tarea a un estudiante o grupo.
 3. Haz clic en **Crear**.
 
 <div class="note">
-Puedes agregar subtareas dentro de cada práctica para dividir el trabajo en pasos más pequeños.
+Puedes agregar sub tareas dentro de cada práctica para dividir el trabajo en pasos más pequeños.
 </div>
 
 A continuación, se muestra un ejemplo de estructura para las tareas:
@@ -316,7 +290,7 @@ Se recomienda que los estudiantes activen las notificaciones para no perderse ac
 - Documentación oficial de Jira Kanban: <https://support.atlassian.com/jira-software-cloud/docs/what-is-kanban/>
 - Tutoriales de automatización en Jira: <https://support.atlassian.com/jira-software-cloud/docs/automate-your-processes-with-rules/>
 
-### RESULTADO
+#### Resultado
 
 Siguiendo estos pasos, has creado un tablero Kanban en Jira para gestionar las actividades del laboratorio del curso **DevOps Tools**. Este método permitirá un flujo de trabajo visual y optimizado, ayudando a los estudiantes a completar sus tareas de manera eficiente.
 

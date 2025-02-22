@@ -6,12 +6,14 @@ Al termino de estas actividades, serás capaz de:
 
 - Instalar y configurar Ansible.
 - Crear y ejecutar playbooks.
+- Utilizar roles.
+- Desplegar un sitio web y una aplicación web.
 
 ## DURACIÓN
 
 Tiempo aproximado para esta actividad:
 
-- 60 minutos.
+- 80 minutos.
 
 ## PRERREQUISITOS
 

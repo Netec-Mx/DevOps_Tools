@@ -1,29 +1,27 @@
-# INTRODUCCIÓN A DEVOPS
+# INTRODUCCIÓN A DEVOPS / ESTRATEGIA DE LAS ACTIVIDADES
 
-## ESTRATEGIA DE LAS ACTIVIDADES
-
-### OBJETIVOS
+## OBJETIVOS
 
 Al termino de este capítulo, serás capaz de:
 
-- Al finalizar la actividad, conocerás la estrategia de abordamiento
-    de los diversos tipos de actividades del curso.
+- Conocer la estrategia de desarrollo de los diversos tipos de actividades del curso.
+- Conocer el entorno para la ejecución de los laboratorios.
 
-### DURACIÓN
+## DURACIÓN
 
 Tiempo aproximado para esta actividad:
 
-- 10 minutos.
+- 25 minutos.
 
-### PRERREQUISITOS
+## PRERREQUISITOS
 
 Para esta actividad se requiere:
 
 - Acceso a Internet.
 
-### INSTRUCCIONES
+## INSTRUCCIONES
 
-#### Tipos de Actividades
+### TIPOS DE ACTIVIDADES
 
 En el curso, existirán diferentes tipos de actividades prácticas:
 
@@ -34,35 +32,9 @@ En el curso, existirán diferentes tipos de actividades prácticas:
 5. Uso de herramientas de CI/CD.
 6. Uso de máquinas virtuales & contenedores.
 
-### RESULTADO
+### ENTORNOS DE TRABAJO
 
-En esta actividad se presentó la estrategia de abordamiento de los
-diversos tipos de actividades del curso.
-
-## ENTORNO DE TRABAJO
-
-### OBJETIVOS
-
-Al termino de este capítulo, serás capaz de:
-
-- Conocer el entorno para la ejecución de los laboratorios.
-
-### DURACIÓN
-
-Tiempo aproximado para esta actividad:
-
-- 15 minutos.
-
-### PRERREQUISITOS
-
-Para esta actividad se requiere:
-
-- Acceso a Internet.
-
-### INSTRUCCIONES
-
-Con la información provista por tu instructor, realiza las siguientes
-actividades.
+Con la información provista por tu instructor, realiza las siguientes actividades.
 
 #### Conexión al escritorio remoto
 
@@ -86,8 +58,7 @@ ssh -p 22 netec@10.1.0.1
 
 Nota Importante:
 
-Recuerda que los datos de conexión serán diferentes para cada
-participante y cada equipo.
+Recuerda que los datos de conexión serán diferentes para cada participante y cada equipo.
 
 ``` shell
 Windows PowerShell
@@ -123,12 +94,28 @@ Last login: Wed Nov 27 23:31:08 2024 from 10.1.0.1
 netec@devopsX:~$
 ```
 
-Cada que se requiera el acceso a los equipos de trabajo, se deberá
-realizar el paso anterior.
+Cada que se requiera el acceso a los equipos de trabajo, se deberá realizar el paso anterior.
+
+#### Nodos
+
+Aunque la configuración puede variar, a continuación se indican los componentes y en que nodo se instalan.
+
+| HERRAMIENTA        |   NODO 01   |   NODO 02   |   NODO 03   |
+|--------------------|:-----------:|:-----------:|:-----------:|
+| Git                |     [X]     |     [X]     |     [X]     |
+| Java               |     [X]     |     [X]     |     [X]     |
+| Maven              |     [X]     |     [X]     |     [X]     |
+| Ansible            |     [X]     |     [ ]     |     [ ]     |
+| Jenkins            |     [X]     |     [ ]     |     [ ]     |
+| Docker             |     [X]     |     [ ]     |     [ ]     |
+| Minikube           |     [X]     |     [ ]     |     [ ]     |
+| PostgreSQL         |     [ ]     |     [X]     |     [ ]     |
+| SonarQube          |     [ ]     |     [X]     |     [ ]     |
+| JFrog Artifactory  |     [ ]     |     [ ]     |     [X]     |
+
 
 ### RESULTADO
 
-En esta actividad se exploró el entorno para la ejecución de los
-laboratorios.
+En esta actividad se exploró el entorno para la ejecución de los laboratorios.
 
 ![Resultado esperado](mm/01-02_LabsMachines.png)

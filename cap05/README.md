@@ -5,13 +5,14 @@
 Al termino de estas actividades, serás capaz de:
 
 - Instalar y configurar Jenkins.
-- Automatizar flujos de trabajo con Jenkins.
+- Automatizar flujos de trabajo con Jenkins mediante jobs.
+- Integrar Jenkins con GitHub.
 
 ## DURACIÓN
 
 Tiempo aproximado para esta actividad:
 
-- 90 minutos.
+- 95 minutos.
 
 ## PRERREQUISITOS
 

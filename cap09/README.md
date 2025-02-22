@@ -5,15 +5,15 @@
 Al termino de estas actividades, serás capaz de:
 
 - Instalar Minikube.
-- Interactuar cpn Minikube.
+- Interactuar con Minikube.
 - Publicar una aplicación Java en un clúster de Kubernetes.
-- Integrar Kubernetes a un flujo de trabajo de Jenkins.
+- Integrar Kubernetes a un flujo de trabajo de Jenkins para el despliegue de aplicaciones.
 
 ## DURACIÓN
 
 Tiempo aproximado para esta actividad:
 
-- 100 minutos.
+- 140 minutos.
 
 ## PRERREQUISITOS
 

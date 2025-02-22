@@ -5,7 +5,7 @@
 Al termino de estas actividades, serás capaz de:
 
 - Instalar Docker.
-- Interactuar de manera fluida con Docker.
+- Interactuar de manera fluida mediante comandos con Docker.
 - _Dockerizar_ una aplicación Java.
 - Integrar Docker a un flujo de trabajo de Jenkins.
 
@@ -13,7 +13,7 @@ Al termino de estas actividades, serás capaz de:
 
 Tiempo aproximado para esta actividad:
 
-- 120 minutos.
+- 160 minutos.
 
 ## PRERREQUISITOS
 

@@ -12,7 +12,7 @@ Al termino de estas actividades, serás capaz de:
 
 Tiempo aproximado para esta actividad:
 
-- 60 minutos.
+- 90 minutos.
 
 ## PRERREQUISITOS
 
